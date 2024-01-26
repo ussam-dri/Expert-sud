@@ -47,7 +47,7 @@ const BannerOne = () => {
                                             <Image
                                                 width={500}
                                                 height={630}
-                                                src="/images/others/pc.jpg"
+                                                src="/images/others/expertsud.jpg"
                                                 alt="Keystokenots Images"
                                             />
                                         </div>
