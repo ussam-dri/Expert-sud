@@ -6,7 +6,7 @@ const Typography = () => {
   return (
     <Layout>
       <Head>
-        <title>Typography || keystroke Creative Agency Bootstrap5 Template</title>
+        <title>Typography</title>
       </Head>
 
       <Breadcrumb title="Typography" current="Typography" />

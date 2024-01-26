@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
     return (
         <Layout>
             <Head>
-                <title>Privacy Policy || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>Privacy Policy </title>
             </Head>
 
             <Breadcrumb title="Privacy Policy" current="Privacy Policy"/>

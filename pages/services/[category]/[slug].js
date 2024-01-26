@@ -36,7 +36,7 @@ const ServiceDetails = ({service}) => {
         <Layout>
             <Head>
                 <title>
-                    {service.title} || keystroke Creative Agency Bootstrap5 Template
+                    {service.title}
                 </title>
             </Head>
 

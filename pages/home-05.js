@@ -27,7 +27,7 @@ const HomeFive = ({posts}) => {
     return (
         <Layout layoutSettings={layoutSettings}>
             <Head>
-                <title>Home 05 || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>EXPERT SUD</title>
             </Head>
 
             <main className="page-wrapper">

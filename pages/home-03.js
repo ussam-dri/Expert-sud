@@ -22,7 +22,7 @@ const HomeThree = () => {
     return (
         <Layout layoutSettings={layoutSettings}>
             <Head>
-                <title>Home 03 || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>EXPERT SUD</title>
             </Head>
 
             <main className="page-wrapper">

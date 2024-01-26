@@ -40,7 +40,7 @@ const ServiceTwo = () => {
     return (
         <Layout>
             <Head>
-                <title>Services || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>Services </title>
             </Head>
 
             <main className="page-wrapper">

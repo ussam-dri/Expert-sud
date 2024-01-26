@@ -64,7 +64,7 @@ const About = () => {
     return (
         <Layout>
             <Head>
-                <title>About Us || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>About Us</title>
             </Head>
 
             <main className="page-wrapper">
