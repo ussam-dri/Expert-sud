@@ -44,13 +44,13 @@ const BannerSix = (
                                 </div>
                                 <div className="image-group">
                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
-                                        <Image
+                                        {/* <Image
                                             width={267}
                                             height={363}
                                             className="paralax-image"
-                                            src={bannerImageTwo}
+                                            //src={bannerImageTwo}
                                             alt="Keystoke Images"
-                                        />
+                                        /> */}
                                     </Tilt>
                                 </div>
                                 <div className="shape-group">
