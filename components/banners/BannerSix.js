@@ -49,8 +49,8 @@ const BannerSix = (
                                             height={363}
                                             className="paralax-image"
                                             src={bannerImageTwo}
-                                            alt="Keystoke  Images"
-                                        /> */}
+                                            alt="Keystoke Images"
+                                        />
                                     </Tilt>
                                 </div>
                                 <div className="shape-group">

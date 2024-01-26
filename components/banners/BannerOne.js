@@ -47,8 +47,8 @@ const BannerOne = () => {
                                             <Image
                                                 width={500}
                                                 height={630}
-                                                src="/images/others/keystoke-image-3.jpg"
-                                                alt="Keystoke Images"
+                                                src="/images/others/expertsud.jpg"
+                                                alt="Keystokenots Images"
                                             />
                                         </div>
                                         <div className="dark-image">
@@ -61,13 +61,7 @@ const BannerOne = () => {
                                         </div>
                                     </div>
                                     <div className="image-group">
-                                        <Image
-                                            width={294}
-                                            height={326}
-                                            className="paralax-image"
-                                            src="/images/others/keystoke-image-4.svg"
-                                            alt="Keystoke Images"
-                                        />
+                                        
                                     </div>
                                     {/* <div className="shape-group">
                                         <div className="shape shape-1 paralax--1">
