@@ -10,7 +10,7 @@ const BannerSix = (
         leftColumn = 'col-lg-5 order-2 order-lg-1 mt_md--30 mt_sm--30',
         rightColumn = 'col-lg-7 order-1 order-lg-2',
         bannerImageOne = '/images/others/keystoke-image-1.png',
-        bannerImageTwo = '/images/others/keystoke-image-2.svg',
+      //  bannerImageTwo = '/images/others/keystoke-image-2.svg',
         shapeImage = '/images/slider/single-service-02.png',
         isServiceDetails = false,
         showPersonImage = true,
@@ -44,13 +44,13 @@ const BannerSix = (
                                 </div>
                                 <div className="image-group">
                                     <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
-                                        <Image
+                                        {/* <Image
                                             width={267}
                                             height={363}
                                             className="paralax-image"
                                             src={bannerImageTwo}
-                                            alt="Keystoke Images"
-                                        />
+                                            alt="Keystoke  Images"
+                                        /> */}
                                     </Tilt>
                                 </div>
                                 <div className="shape-group">
