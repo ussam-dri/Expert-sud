@@ -100,7 +100,7 @@ const Header = ({headerSetting = {}}) => {
                         <div className="row align-items-center">
                             <div className={headerSettings.leftColumn}>
                                 <div className="logo">
-                                    <Link href="/home-01">
+                                    <Link href="/">
                                         <a>
                                             <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
                                         </a>

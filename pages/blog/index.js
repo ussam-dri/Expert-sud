@@ -49,7 +49,7 @@ const Blog = ({posts}) => {
     return (
         <Layout>
             <Head>
-                <title>Blog || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>Blog</title>
             </Head>
 
             <Breadcrumb/>
