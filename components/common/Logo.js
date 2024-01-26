@@ -27,7 +27,7 @@ const Logo = ({variant = 'one', fillTextColor = '#00004B'}) => {
                                     fontFamily="DMSans-Regular, DM Sans"
                                     fontSize="18"
                                     fontWeight="normal">
-                                    {variant === 'two' ? 'Small agency studio' : 'Startup template'}
+                                    {variant === 'two' ? 'Small agency studio' : 'Business & Development'}
                                 </tspan>
                             </text>
                             <g id="Favicon">
