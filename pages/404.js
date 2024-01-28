@@ -28,7 +28,7 @@ const ErrorPage = () => {
                                         </ul>
                                         <p>Need help? <Link href="/contact"><a>Contact us</a></Link> anytime!</p>
                                         <p>Warm regards, Expert Sud Team</p>
-                                        <Link href="/home-01">
+                                        <Link href="/">
                                             <a className="axil-button btn-large btn-transparent">
                                                 <span className="button-text">Go Back</span>
                                                 <span className="button-icon"/>
