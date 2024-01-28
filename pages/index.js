@@ -27,7 +27,7 @@ const HomeOne = ({posts}) => {
                 <BannerOne/>
 
                 <ServiceOne/>
-
+            
                 <SliderOne/>
 
                 <AboutOne/>

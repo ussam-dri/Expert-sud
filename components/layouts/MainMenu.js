@@ -1,7 +1,13 @@
 import Link from 'next/link';
-import MainMenuData from '../../data/MainMenu.json';
+import { useRouter } from 'next/router';
 
 const MainMenu = () => {
+    const router = useRouter();
+    const { locale } = router;
+
+    // Import the menu data dynamically based on the selected language
+    const MainMenuData = locale === 'fr' ? require('../../data/MainMenu-fr.json') : require('../../data/MainMenu.json');
+
     return (
         <ul className="mainmenu">
             {MainMenuData?.map((menu, menuIndex) => (
@@ -12,7 +18,7 @@ const MainMenu = () => {
                     <Link href={menu.url}>{menu.title}</Link>
                     {menu.hasChildren && (
                         <ul className="axil-submenu">
-                            {menu.clildrens?.map((submenuItem, submenuIndex) => (
+                            {menu.children.map((submenuItem, submenuIndex) => (
                                 <li key={`submenu-item-${submenuIndex}`}>
                                     <Link href={submenuItem.url}>{submenuItem.title}</Link>
                                 </li>
