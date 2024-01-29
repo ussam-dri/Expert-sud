@@ -1,8 +1,20 @@
 import Image from 'next/image';
 import Tilt from 'react-parallax-tilt';
 import Link from "next/link";
+import { useRouter } from 'next/router';
 
 const BannerOne = () => {
+    const router = useRouter();
+    const { locale } = router;
+
+    // Default to 'en' locale if no locale is detected
+    const currentLocale = locale || 'fr';
+
+    // Import translated data from JSON file based on current locale
+    const data = require(`../../locales/${currentLocale}/home_page.json`);
+
+    const { main_text, start_now_key, sub_main_text} = data;
+
     return (
         <div className="axil-slider-area axil-slide-activation">
             <div
@@ -16,8 +28,7 @@ const BannerOne = () => {
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
                                 >
-                                    Business & développement.
-                 
+                                    {main_text}
                                 </h1>
                                 <p
                                     className="subtitle-3"
@@ -25,7 +36,7 @@ const BannerOne = () => {
                                     data-aos-duration="1000"
                                     data-aos-delay="200"
                                 >
-                                    Expert Sud est un bureau d'études en ingénierie  <br></br> de développement et transformation digitale <br></br> qui vous accompagne  tout au long de votre <br></br> projet avec la sincérité et le respect <br></br> des règles de l art de la profession. 
+                                    {sub_main_text}
                                     <br/>
                                 </p>
                                 <Link href="/portfolio">
@@ -33,8 +44,7 @@ const BannerOne = () => {
                                        data-aos="aos-fade-in-up"
                                        data-aos-duration="1000"
                                        data-aos-delay="400">
-                                        <span className="button-text">Commencez aujourd hui</span>
-                                        {/* <span className="button-icon"/> */}
+                                        <span className="button-text">{start_now_key}</span>
                                     </a>
                                 </Link>
                             </div>
@@ -48,32 +58,11 @@ const BannerOne = () => {
                                                 width={500}
                                                 height={630}
                                                 src="/images/others/expertsud.jpg"
-                                                alt="Keystokenots Images"
-                                            />
-                                        </div>
-                                        <div className="dark-image">
-                                            <Image
-                                                width={500}
-                                                height={630}
-                                                src="/images/others/keystoke-image.png"
-                                                alt="Keystoke Images"
+                                                alt="expertsud"
                                             />
                                         </div>
                                     </div>
-                                    <div className="image-group">
-                                        
-                                    </div>
-                                    {/* <div className="shape-group">
-                                        <div className="shape shape-1 paralax--1">
-                                            <i className="icon icon-shape-05"/>
-                                        </div>
-                                        <div className="shape shape-2 customOne">
-                                            <i className="icon icon-shape-06"/>
-                                        </div>
-                                        <div className="shape shape-3 paralax--3">
-                                            <i className="icon icon-shape-04"/>
-                                        </div>
-                                    </div> */}
+                                    <div className="image-group"></div>
                                 </div>
                             </Tilt>
                         </div>

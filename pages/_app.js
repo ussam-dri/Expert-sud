@@ -7,6 +7,7 @@ import '../assets/css/plugins/icomoon.css';
 import '../assets/css/plugins/plugins.css';
 import '../assets/scss/style.scss';
 // import '../assets/css/card.css';
+import { appWithTranslation } from 'next-i18next';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

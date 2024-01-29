@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Home",
+    "title": "Accueil",
     "url": "/",
     "hasChildren": false
   },
@@ -13,19 +13,19 @@
   },
   {
     "id": 7,
-    "title": "portfolio",
+    "title": "portefeuille",
     "url": "/portfolio",
     "hasChildren": false
   },
   {
     "id": 3,
-    "title": "About Us",
+    "title": "À propos",
     "url": "/about",
     "hasChildren": false
   },
   {
     "id": 4,
-    "title": "pricing",
+    "title": "facturation",
     "url": "/pricing",
     "hasChildren": false
   },
@@ -35,22 +35,20 @@
     "url": "/contact",
     "hasChildren": false
   },
-  {
-   "id": 7,
-   "title": "Language",
-   "url": "/",
-   "hasChildren": true,
-   "children": [
-    {
-      "title": "EN",
-      "url": "/en"
-    },
-    {
-      "title": "FR",
-      "url": "/fr"
-    }
-  ]
-
-   
- }
+   {
+    "id": 7,
+    "title": "Language",
+    "url": "#",
+    "hasChildren": true,
+    "children": [
+      {
+        "title": "EN",
+        "url": "/en"
+      },
+      {
+        "title": "FR",
+        "url": "/"
+      }
+    ]
+  }
 ]

@@ -7,7 +7,7 @@ const ErrorPage = () => {
     return (
         <Layout showFooter={false}>
             <Head>
-                <title>404 || Keystroke Creative Agency Bootstrap 5 Template</title>
+                <title>404 Page Not Found</title>
             </Head>
 
             <main className="page-wrapper page-error">
@@ -17,19 +17,23 @@ const ErrorPage = () => {
                             <div className="col-lg-12">
                                 <div className="axil-error text-center">
                                     <div className="inner">
-                                        <h1 className="title mb--20">Page not Found</h1>
+                                        <h1>Oops! Page Not Found</h1>
                                         <p className="subtitle-2 mb--30">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                            Enim, recusandae <br/> consectetur nesciunt magnam
-                                            facilis aliquid amet earum alias?
+                                            Looks like you've wandered off course. Here's what you can do:
                                         </p>
-                                        <Link href="/home-01">
+                                        <ul>
+                                            <p>&diams;   Double-check the URL for typos.</p>
+                                            <p>&diams;   Return to our <Link href="/"><a>homepage</a></Link> and navigate from there.</p>
+                                            <p>&diams;   If you found a broken link on our site, <Link href="/contact"><a>let us know</a></Link>.</p>
+                                        </ul>
+                                        <p>Need help? <Link href="/contact"><a>Contact us</a></Link> anytime!</p>
+                                        <p>Warm regards, Expert Sud Team</p>
+                                        <Link href="/">
                                             <a className="axil-button btn-large btn-transparent">
                                                 <span className="button-text">Go Back</span>
                                                 <span className="button-icon"/>
                                             </a>
                                         </Link>
-
                                         <div className="text-image">
                                             <Image
                                                 width={860}
