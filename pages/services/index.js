@@ -98,9 +98,9 @@ const Services = () => {
                         <ul className="nav nav-pills justify-content-center sidebar__inner">
                             <li className="nav-item">
                                 <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section1" ? "active" : ""
+                                    className={`nav-link smoth-animation ${activeServiceSection === "MarketingDigital" ? "active" : ""
                                         }`}
-                                    href="#section1"
+                                    href="#MarketingDigital"
                                 >
                                     marketing Digital
                                 </a>
@@ -114,16 +114,7 @@ const Services = () => {
                                     Development
                                 </a>
                             </li>
-                            {/* <li className="nav-item">
-                                <a
-                                    className={`nav-link smoth-animation ${
-                                        activeServiceSection === "section3" ? "active" : ""
-                                    }`}
-                                    href="#section3"
-                                >
-                                    Online marketing
-                                </a>
-                            </li> */}
+                         
                             <li className="nav-item">
                                 <a
                                     className={`nav-link smoth-animation ${activeServiceSection === "section4" ? "active" : ""
