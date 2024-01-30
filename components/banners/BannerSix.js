@@ -1,8 +1,10 @@
 import Tilt from "react-parallax-tilt";
 import Image from "next/image";
+//import { useRouter } from 'next/router';
 
 const BannerSix = (
     {
+       
         title = 'Les meilleures solutions pour votre entreprise',
         subtitle = 'Expert Sud est un bureau d tudes en ingénierie de développement et transformation digitale qui vous accompagne tout au long de votre projet avec la sincérité et le respect des règles de l art de la profession. ',
         bannerStyleClass = 'axil-breadcrumb-area breadcrumb-style-2 pt--170 pb--70 theme-gradient',
@@ -18,6 +20,7 @@ const BannerSix = (
 ) => {
     return (
         <div className={bannerStyleClass}>
+            <h4>bannerSix</h4>
             <div className="container">
                 <div className="row align-items-center">
                     <div className={leftColumn}>

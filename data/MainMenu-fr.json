@@ -42,13 +42,9 @@
     "hasChildren": true,
     "children": [
       {
-        "title": "EN",
-        "url": "/en"
-      },
+        "title": "EN"      },
       {
-        "title": "FR",
-        "url": "/fr"
-      }
+        "title": "FR"      }
     ]
   }
 ]

@@ -90,13 +90,13 @@ const MobileMenu = () => {
             <div className="inner">
                 <div className="mobileheader">
                     <div className="logo">
-                        <Link href="/home-01">
+                        <Link href="/">
                             <a>
                                 <Image
                                     width={250}
                                     height={60}
                                     src="/images/logo/keystoke.svg"
-                                    alt="Logo images"
+                                    alt="EXPERT SUD"
                                 />
                             </a>
                         </Link>

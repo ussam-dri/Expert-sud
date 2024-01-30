@@ -5,7 +5,7 @@ import BannerSix from '../../components/banners/BannerSix';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import Layout from '../../components/layouts/Layout';
 import ServiceSection from '../../components/services/ServiceSection';
-import ServiceData from '../../data/Services.json';
+//import ServiceData from '../../data/Services.json';
 import js from '../../assets/img/js.png';
 import php from '../../assets/img/php.png';
 
@@ -15,10 +15,15 @@ import Image from 'next/image';
 import html from '../../assets/img/html-5.png';
 import mysql from '../../assets/img/mysql.png';
 import node from '../../assets/img/nodejs.png';
+import { useRouter } from 'next/router';
 
 const Services = () => {
+    const router = useRouter();
+    const { locale } = router;
+
     const [activeServiceSection, setActiveServiceSection] = useState("");
     const [servicesByCategory, setServicesByCategory] = useState([]);
+        const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
 
     const getServicesByCategory = () => {
         const filteredServices = ServiceData.reduce((acc, service) => {
@@ -66,15 +71,22 @@ const Services = () => {
     const { ref, inView } = useInView({
         threshold: 0,
     });
-
     useEffect(() => {
+        getServicesByCategory();
+        // Update active service section based on the first service category
+        if (servicesByCategory.length > 0) {
+            setActiveServiceSection(`section-${servicesByCategory[0].name.replace(/\s+/g, '-').toLowerCase()}`);
+        }
+    }, []);
+    
+   useEffect(() => {
         window.addEventListener("scroll", () => {
             if (inView) {
                 handleStickyNav();
             } else {
                 removeStickyNav();
             }
-        });
+        }); 
     }, [inView]);
 
     useEffect(() => {
@@ -98,9 +110,9 @@ const Services = () => {
                         <ul className="nav nav-pills justify-content-center sidebar__inner">
                             <li className="nav-item">
                                 <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "MarketingDigital" ? "active" : ""
+                                    className={`nav-link smoth-animation ${activeServiceSection === "section1" ? "active" : ""
                                         }`}
-                                    href="#MarketingDigital"
+                                    href="#section1"
                                 >
                                     marketing Digital
                                 </a>

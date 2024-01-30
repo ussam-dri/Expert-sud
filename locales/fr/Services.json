@@ -8,7 +8,7 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Marketing Digital from data",
+    "title": "Marketing Digital-fr",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "Marketing Digital",
@@ -271,7 +271,7 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Digital marketing & Communication",
+    "title": "Digital marketing & Communication -fr",
     "description": "Notre agence de marketing digital vous fournit une variété de services, depuis la création de sites Web jusqu'à l'influence des campagnes de marketing, afin d'avoir plus d'engagement  plus de prospects et plus de ventes. ",
     "category": "Marketing Digital",
     "slug": "mobile-app-design",
@@ -281,7 +281,7 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Services de Marketing Digital ",
+          "title": "Services de Marketing Digital -fr ",
           "subtitle": "our four step process",
           "description": "Nos services de marketing digital offrent une expertise complète pour propulser votre présence en ligne, maximiser votre visibilité et développer votre audience cible grâce à des stratégies personnalisées et innovantes.",
           "highlightColor": "extra04-color",
@@ -323,8 +323,8 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-04",
-    "title": "SMS & EMAIL MARKETING",
-    "description": "From simple Content Management System to complex eCommerce developer, we cover it all.",
+    "title": "SMS & EMAIL MARKETING -fr",
+    "description": "-fr From simple Content Management System to complex eCommerce developer, we cover it all.",
     "category": "Marketing Digital",
     "slug": "graphic-print-design",
     "process": {

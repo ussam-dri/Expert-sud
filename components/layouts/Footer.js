@@ -239,7 +239,7 @@ const Footer = ({footerSetting = {}}) => {
                         <div className="row row--0 ptb--20 axil-basic-thine-line">
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className="inner text-center text-md-start">
-                                    <p>© 2022. All rights reserved by Your Company.</p>
+                                    <p>© 2024. All rights reserved by Expert Sud.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">

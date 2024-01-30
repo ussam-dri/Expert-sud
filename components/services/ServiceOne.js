@@ -1,27 +1,29 @@
-import {useEffect, useState} from 'react';
-import ServiceData from '../../data/Services.json';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import SectionTitle from '../common/SectionTitle';
 import ServiceCardOne from './ServiceCardOne';
 
 const ServiceOne = () => {
+    const router = useRouter();
+    const { locale } = router;
     const [defaultServices, setDefaultServices] = useState([]);
     const [activeService, setActiveService] = useState(1);
 
-    const getDefaultServices = () => {
+    useEffect(() => {
+        // Dynamically import the service data based on the selected language
+        const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
+        
+        // Filter services based on the category 'Default'
         const filteredServices = ServiceData.filter(
             (service) => service.category === 'Default'
         );
 
-        setDefaultServices(filteredServices)
-    }
+        setDefaultServices(filteredServices);
+    }, [locale]);
 
     const changeActive = (index) => {
         setActiveService(index);
     };
-
-    useEffect(() => {
-        getDefaultServices();
-    }, []);
 
     return (
         <div className="axil-service-area ax-section-gap bg-color-white">
@@ -38,14 +40,15 @@ const ServiceOne = () => {
                     </div>
                 </div>
                 <div className="row">
-                    {defaultServices?.map((service, index) => (
+                    {defaultServices?.map((ServiceData, index) => (
                         <ServiceCardOne
-                            key={service.id}
+                            key={ServiceData.id}
                             column="col-lg-4 col-md-6 col-sm-6 col-12"
                             index={index}
                             activeIndex={activeService}
-                            data={service}
+                            data={ServiceData} // Pass the localized service data to ServiceCardOne
                             changeActive={changeActive}
+                            chosenService={ServiceData.slug}
                         />
                     ))}
                 </div>

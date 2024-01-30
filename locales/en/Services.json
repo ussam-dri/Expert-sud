@@ -8,7 +8,7 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Marketing Digital from data",
+    "title": "Marketing Digital-en",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "Marketing Digital",
@@ -289,7 +289,7 @@
         },
         {
           "id": 2,
-          "title": "SMS & EMAIL MARKETING ",
+          "title": "SMS & EMAIL MARKETING-en ",
           "subtitle": "our four step process",
           "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
           "highlightColor": "extra05-color",
@@ -324,7 +324,7 @@
     },
     "iconColorClass": "gradient-color-04",
     "title": "SMS & EMAIL MARKETING",
-    "description": "From simple Content Management System to complex eCommerce developer, we cover it all.",
+    "description": "-en From simple Content Management System to complex eCommerce developer, we cover it all.",
     "category": "Marketing Digital",
     "slug": "graphic-print-design",
     "process": {
