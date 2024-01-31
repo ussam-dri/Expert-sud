@@ -38,25 +38,27 @@ const ContactFormOne = () => {
   };
 
   return (
+    
     <form ref={form} onSubmit={sendEmail}>
       {/* <Input name="name" label="Name" isClear={isMessageSent} />
       <Input name="email" label="Email" type="email" isClear={isMessageSent} />
       <Input name="phone" label="phone" isClear={isMessageSent} />
       <Input name="message" label="Your message" type="textarea" isClear={isMessageSent}/> */}
       <div className="mb-3">
-        <label for="name" className="form-label">Name</label>
+      
+        <label htmlFor="name" className="form-label">Name</label>
         <input name="name" label="Name" isClear={isMessageSent} className="form-control-lg" placeholder="name" style={{ border: "solid 1px grey" }} />
       </div>
       <div className="mb-3">
-        <label for="email" className="form-label">email</label>
+        <label htmlFor="email" className="form-label">email</label>
         <input name="email" label="Email" isClear={isMessageSent} className="form-control-lg" placeholder="email" style={{ border: "solid 1px  grey" }} />
       </div>
       <div className="mb-3">
-        <label for="phone" className="form-label">phone</label>
+        <label forhtmlFor="phone" className="form-label">phone</label>
         <input name="phone" label="phone" isClear={isMessageSent} className="form-control-lg" placeholder="phone" style={{ border: "solid 1px grey" }} />
       </div>
       <div className="mb-3">
-        <label for="message" className="form-label">message</label>
+        <label htmlFor="message" className="form-label">message</label>
         <textarea className="form-control" rows={3} name="message" placeholder="Your message" isClear={isMessageSent} style={{ border: "solid 1px grey" }} />
       </div>
       <div className="form-group">

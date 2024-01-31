@@ -5,25 +5,24 @@ import BannerSix from '../../components/banners/BannerSix';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import Layout from '../../components/layouts/Layout';
 import ServiceSection from '../../components/services/ServiceSection';
-//import ServiceData from '../../data/Services.json';
-import js from '../../assets/img/js.png';
 import php from '../../assets/img/php.png';
-
-import sql from '../../assets/img/sql.png';
 import java from '../../assets/img/java.png';
-import Image from 'next/image';
+import sql from '../../assets/img/sql.png';
+import js from '../../assets/img/js.png';
 import html from '../../assets/img/html-5.png';
 import mysql from '../../assets/img/mysql.png';
 import node from '../../assets/img/nodejs.png';
 import { useRouter } from 'next/router';
-
+import Image from 'next/image'
 const Services = () => {
     const router = useRouter();
     const { locale } = router;
 
     const [activeServiceSection, setActiveServiceSection] = useState("");
     const [servicesByCategory, setServicesByCategory] = useState([]);
-        const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
+
+    // Dynamic import based on locale
+    const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
 
     const getServicesByCategory = () => {
         const filteredServices = ServiceData.reduce((acc, service) => {
@@ -52,6 +51,33 @@ const Services = () => {
         setActiveServiceSection(sectionId);
     };
 
+    const { ref, inView } = useInView({
+        threshold: 0,
+    });
+
+    useEffect(() => {
+        getServicesByCategory();
+        // Update active service section based on the first service category
+        if (servicesByCategory.length > 0) {
+            setActiveServiceSection(`section-${servicesByCategory[0].name.replace(/\s+/g, '-').toLowerCase()}`);
+        }
+    }, []);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (inView) {
+                handleStickyNav();
+            } else {
+                removeStickyNav();
+            }
+        });
+
+        // Cleanup function
+        return () => {
+            window.removeEventListener("scroll", () => {});
+        };
+    }, [inView]); // Added inView as a dependency
+
     const handleStickyNav = () => {
         const scrollNavigationArea = document.querySelector(
             ".axil-scroll-navigation"
@@ -68,31 +94,6 @@ const Services = () => {
         scrollNav?.classList.remove("is-affixed");
     };
 
-    const { ref, inView } = useInView({
-        threshold: 0,
-    });
-    useEffect(() => {
-        getServicesByCategory();
-        // Update active service section based on the first service category
-        if (servicesByCategory.length > 0) {
-            setActiveServiceSection(`section-${servicesByCategory[0].name.replace(/\s+/g, '-').toLowerCase()}`);
-        }
-    }, []);
-    
-   useEffect(() => {
-        window.addEventListener("scroll", () => {
-            if (inView) {
-                handleStickyNav();
-            } else {
-                removeStickyNav();
-            }
-        }); 
-    }, [inView]);
-
-    useEffect(() => {
-        getServicesByCategory();
-    }, []);
-
     return (
         <Layout>
             <Head>
@@ -106,57 +107,14 @@ const Services = () => {
                     ref={ref}
                     className="axil-scroll-navigation-area axil-scroll-navigation position-relative bg-color-white"
                 >
+                    {/* Navigation section */}
                     <nav className="axil-scroll-nav navbar navbar-example2">
                         <ul className="nav nav-pills justify-content-center sidebar__inner">
-                            <li className="nav-item">
-                                <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section1" ? "active" : ""
-                                        }`}
-                                    href="#section1"
-                                >
-                                    marketing Digital
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section2" ? "active" : ""
-                                        }`}
-                                    href="#section2"
-                                >
-                                    Development
-                                </a>
-                            </li>
-                         
-                            <li className="nav-item">
-                                <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section4" ? "active" : ""
-                                        }`}
-                                    href="#section3"
-                                >
-                                    Design
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section5" ? "active" : ""
-                                        }`}
-                                    href="#section4"
-                                >
-                                    Technology
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section6" ? "active" : ""
-                                        }`}
-                                    href="#section5"
-                                >
-                                    Content strategy
-                                </a>
-                            </li>
+                            {/* Navigation links */}
                         </ul>
                     </nav>
 
+                    {/* Service sections */}
                     {servicesByCategory?.map((categoryServices, index) => (
                         <ServiceSection
                             key={`service-section-${index}`}
@@ -171,24 +129,26 @@ const Services = () => {
                             changeActiveSection={changeActiveSection}
                         />
                     ))}
-                    {/* technologies start */}
+
+                    {/* Technologies section */}
                     <div className='container'>
                         <div className='row'>
                             <h4 className="row" style={{ justifyContent: "center", display: 'flex', marginBottom: 40 }}>technologies we use</h4>
                             <div className='row' style={{ display: "flex", justifyContent: "space-between" }}>
-                                <Image src={php} width={90} height={90} />
-                                <Image src={java} width={90} height={90} />
-                                <Image src={sql} width={90} height={90} />
-                                <Image src={js} width={90} height={90} />
-                                <Image src={html} width={90} height={90} />
-                                <Image src={mysql} width={90} height={90} />
-                                <Image src={node} width={90} height={90} />
+                                <Image src={php} width={90} height={90} alt="PHP" />
+                                <Image src={java} width={90} height={90} alt="Java" />
+                                <Image src={sql} width={90} height={90} alt="SQL" />
+                                <Image src={js} width={90} height={90} alt="JavaScript" />
+                                <Image src={html} width={90} height={90} alt="HTML" />
+                                <Image src={mysql} width={90} height={90} alt="MySQL" />
+                                <Image src={node} width={90} height={90} alt="Node.js" />
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* technologies end */}                    
-                {/* <CallToActionOne/> */}
+
+                {/* Call to action */}
+                <CallToActionOne />
             </main>
         </Layout>
     );

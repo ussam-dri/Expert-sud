@@ -19,7 +19,7 @@ const ErrorPage = () => {
                                     <div className="inner">
                                         <h1>Oops! Page Not Found</h1>
                                         <p className="subtitle-2 mb--30">
-                                            Looks like you've wandered off course. Here's what you can do:
+                                            Looks like you&apos;'ve wandered off course. Here &apos;'s what you can do:
                                         </p>
                                         <ul>
                                             <p>&diams;   Double-check the URL for typos.</p>
