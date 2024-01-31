@@ -95,7 +95,7 @@ const MobileMenu = () => {
                                 <Image
                                     width={250}
                                     height={60}
-                                    src="/images/logo/keystoke.svg"
+                                    src="/images/slogan.png"
                                     alt="EXPERT SUD"
                                 />
                             </a>
@@ -110,6 +110,19 @@ const MobileMenu = () => {
                 </div>
                 <div className="menu-item">
                     <MainMenu/>
+                    <ul style={{ listStyleType: 'none', padding: 0 }}>
+                        <li style={{ display: 'inline-block' }}><Link href="/en">
+                            <Image width={25}
+                                    height={25}
+                                     src="/images/en.png" alt="en"/>
+                                     </Link></li>
+                        <li style={{ display: 'inline-block' }}><Link href="/fr">
+                            <Image width={25}
+                                    height={25}
+                                     src="/images/fr.png" alt="fr"/>
+                            </Link></li>
+
+                    </ul>
                 </div>
             </div>
         </div>

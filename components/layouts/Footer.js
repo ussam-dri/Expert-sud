@@ -99,7 +99,7 @@ const Footer = ({footerSetting = {}}) => {
                                         >
                                             {footerSettings.style !== "three" ? (
                                                 <>
-                                                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d712.9830829296644!2d-9.564362754528256!3d30.411449797635708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b7dbe41fb83d%3A0x3a13830dd067a299!2sSud!5e0!3m2!1sfr!2sma!4v1706709772228!5m2!1sfr!2sma" 
+                                                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1720.3842915377147!2d-9.55965!3d30.414306999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b7dbe41fb83d%3A0x3a13830dd067a299!2sSud!5e0!3m2!1sfr!2sma!4v1706717867982!5m2!1sfr!2sma" 
                                                     width="500"
                                                     height="300"
                                                     
