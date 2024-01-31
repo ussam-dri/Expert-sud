@@ -110,7 +110,7 @@ const Services = () => {
                         <ul className="nav nav-pills justify-content-center sidebar__inner">
                             <li className="nav-item">
                                 <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section1" ? "active" : ""
+                                    className={`nav-link smoth-animation ${activeServiceSection === "section0" ? "active" : ""
                                         }`}
                                     href="#section1"
                                 >
@@ -119,7 +119,7 @@ const Services = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section2" ? "active" : ""
+                                    className={`nav-link smoth-animation ${activeServiceSection === "section1" ? "active" : ""
                                         }`}
                                     href="#section2"
                                 >
@@ -129,7 +129,7 @@ const Services = () => {
                          
                             <li className="nav-item">
                                 <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section4" ? "active" : ""
+                                    className={`nav-link smoth-animation ${activeServiceSection === "section3" ? "active" : ""
                                         }`}
                                     href="#section3"
                                 >
@@ -138,7 +138,7 @@ const Services = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section5" ? "active" : ""
+                                    className={`nav-link smoth-animation ${activeServiceSection === "section4" ? "active" : ""
                                         }`}
                                     href="#section4"
                                 >
@@ -147,7 +147,7 @@ const Services = () => {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className={`nav-link smoth-animation ${activeServiceSection === "section6" ? "active" : ""
+                                    className={`nav-link smoth-animation ${activeServiceSection === "section5" ? "active" : ""
                                         }`}
                                     href="#section5"
                                 >

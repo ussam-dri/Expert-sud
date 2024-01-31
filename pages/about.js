@@ -75,7 +75,7 @@ const About = () => {
 
                 <TeamOne/>
 
-                <WorkingProcess process={workingProcess}/>
+                {/* <WorkingProcess process={workingProcess}/> */}
             </main>
         </Layout>
     );

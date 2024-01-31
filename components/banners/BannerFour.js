@@ -67,7 +67,7 @@ const BannerFour = () => {
                             <div className="follow-us">
                                 <ul className="social-share social-share-style-2">
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                                        <a href="https://web.facebook.com/expertsudmaroc" target="_blank" rel="noreferrer">
                                             <i className="fab fa-facebook-f"/>
                                             <span>Facebook</span>
                                         </a>

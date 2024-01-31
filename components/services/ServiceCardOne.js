@@ -25,7 +25,7 @@ const ServiceCardOne = (
 
     return (
         <div className={column} data-aos="aos-fade-in-up">
-            <h4>service card one</h4>
+            
             <Tilt tiltMaxAngleX={7} tiltMaxAngleY={7}>
                 <div
                     className={`axil-service axil-control paralax-image ${serviceClass} ${textAlignment} ${
