@@ -99,20 +99,15 @@ const Footer = ({footerSetting = {}}) => {
                                         >
                                             {footerSettings.style !== "three" ? (
                                                 <>
-                                                    <h2>Get in touch!</h2>
-                                                    <p>
-                                                        Fusce varius&sbquo; dolor tempor interdum tristique&sbquo; dui
-                                                        urna <br/> bibendum magna&sbquo; ut ullamcorper purus
-                                                    </p>
-                                                    <div className="axil-newsletter">
-                                                        <form className="newsletter-form" action="#">
-                                                            <input type="email" placeholder="Email"/>
-                                                            <a className="axil-button btn-transparent" href="#">
-                                                                <span className="button-text">Subscribe</span>
-                                                                <span className="button-icon"/>
-                                                            </a>
-                                                        </form>
-                                                    </div>
+                                                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d712.9830829296644!2d-9.564362754528256!3d30.411449797635708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b7dbe41fb83d%3A0x3a13830dd067a299!2sSud!5e0!3m2!1sfr!2sma!4v1706709772228!5m2!1sfr!2sma" 
+                                                    width="500"
+                                                    height="300"
+                                                    
+                                                    allowfullscreen="false"
+                                                        loading="lazy"
+                                                        referrerpolicy="no-referrer-when-downgrade">
+                                                    </iframe>
+                                                    
                                                 </>
                                             ) : (
                                                 <>
@@ -144,7 +139,7 @@ const Footer = ({footerSetting = {}}) => {
                                         </div>
                                     </div>
 
-                                    <div
+                                    {/* <div
                                         className={`${
                                             footerSettings.style === "three"
                                                 ? "col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mt_mobile--30"
@@ -169,7 +164,7 @@ const Footer = ({footerSetting = {}}) => {
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     <div
                                         className={`${

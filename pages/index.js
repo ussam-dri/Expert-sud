@@ -32,7 +32,7 @@ const HomeOne = ({posts}) => {
             
                 <SliderOne/>
 
-                <AboutOne/>
+                {/* <AboutOne/> */}
 
                 {/* <PortfolioOne/> */}
 
