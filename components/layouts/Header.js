@@ -102,7 +102,7 @@ const Header = ({headerSetting = {}}) => {
                                 <div className="logo">
                                     <Link href="/">
                                         <a>
-                                        <img width="200" height="65" src="../../images/slogan.png" alt="Your Logo" />
+                                        <img width="200" height="55" src="../../images/slogan.png" alt="Your Logo" />
                                                                          
                                                                        
                                          </a>
