@@ -21,6 +21,11 @@ const ServiceOne = () => {
         setDefaultServices(filteredServices);
     }, [locale]);
 
+    // Define title, subtitle, and description based on language
+    const title = locale === 'fr' ? 'Services auxquels nous pouvons vous aider' : 'Services we can help you with';
+    const subtitle = locale === 'fr' ? 'ce que nous pouvons faire pour vous' : 'what we can do for you';
+    const description = locale === 'fr' ? "Notre bureau d’études vous offre des prestations avancées et intelligentes, techniquement et créativement qualifiées pour consolider votre présence dans le marché actuel." : "Our design office offers you advanced and intelligent, technically and creatively qualified services to consolidate your presence in today's market.";
+
     const changeActive = (index) => {
         setActiveService(index);
     };
@@ -31,9 +36,9 @@ const ServiceOne = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <SectionTitle
-                            title="Services we can help you with"
-                            subtitle="what we can do for you"
-                            description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                            title={title}
+                            subtitle={subtitle}
+                            description={description}
                             color="extra08-color"
                             alignment="center"
                         />
