@@ -103,7 +103,7 @@ const Footer = ({footerSetting = {}}) => {
                                                     width="500"
                                                     height="300"
                                                     
-                                                    allowfullscreen="false"
+                                                    allowFullScreen={false}
                                                         loading="lazy"
                                                         referrerpolicy="no-referrer-when-downgrade">
                                                     </iframe>
