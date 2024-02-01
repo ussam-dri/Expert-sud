@@ -8,48 +8,10 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Marketing Digital-fr",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Marketing Digital",
+    "description": "Notre agence de marketing digital vous fournit une variété de services, depuis la création de sites Web jusqu'à l'influence des campagnes de marketing, afin d'avoir plus d'engagement plus de prospects et plus de ventes.",
     "category": "Default",
-    "slug": "Marketing Digital",
-    "process": {
-      "title": "Our design process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
+    "slug": "Marketing-Digital"
   },
   {
     "id": 2,
@@ -60,48 +22,10 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Development",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Développment",
+    "description": "Notre bureau de développement est le cœur de l'innovation, propulsant notre société informatique vers de nouveaux horizons.\nNotre équipe dynamique, dotée d'une expertise technique approfondie, conçoit des solutions numériques sur mesure.",
     "category": "Default",
-    "slug": "development",
-    "process": {
-      "title": "Our development process",
-      "description": "Our comprehensive development strategy ensures a perfectly crafted application for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
+    "slug": "developpment"
   },
   
   {
@@ -114,47 +38,9 @@
     },
     "iconColorClass": "gradient-color-04",
     "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "description": "Nous fusionnons l'esthétique et la fonctionnalité dans chaque aspect de l'UI/UX et développement pour offrir des expériences utilisateur captivantes et des solutions technologiques innovantes, stimulant ainsi la croissance de votre entreprise",
     "category": "Default",
-    "slug": "Design",
-    "process": {
-      "title": "Our business process",
-      "description": "Our comprehensive business strategy ensures quality and perfection for our clients.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
+    "slug": "Design"
   },
   {
     "id": 5,
@@ -165,48 +51,10 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-06",
-    "title": "Technology",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Technologie",
+    "description": " Grâce à notre expertise pointue, nous vous offrons des solutions technologiques sur mesure, adaptées à vos besoins spécifiques. Optez pour une transformation numérique réussie avec notre service de pointe",
     "category": "Default",
-    "slug": "technology",
-    "process": {
-      "title": "Our technical process",
-      "description": "Our comprehensive technical strategy ensures a perfectly maintained system for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
+    "slug": "Technologie"
   },
   {
     "id": 6,
@@ -217,48 +65,10 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-05",
-    "title": "Content strategy",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Stratégie de Contenu",
+    "description": "Avec une analyse approfondie de votre audience cible et une planification stratégique, nous vous aidons à créer un contenu captivant et pertinent. Maximisez l'impact de votre message et atteignez vos objectifs avec notre expertise en stratégie de contenu.",
     "category": "Default",
-    "slug": "content-strategy",
-    "process": {
-      "title": "Our content strategy process",
-      "description": "Our comprehensive content strategy ensures top class content for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
+    "slug": "Strategie-de-Contenu"
   },
   
   
@@ -271,10 +81,10 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Digital marketing & Communication -fr",
+    "title": "Digital marketing & Communication",
     "description": "Notre agence de marketing digital vous fournit une variété de services, depuis la création de sites Web jusqu'à l'influence des campagnes de marketing, afin d'avoir plus d'engagement  plus de prospects et plus de ventes. ",
     "category": "Marketing Digital",
-    "slug": "mobile-app-design",
+    "slug": "Digital-marketing-&-Communication",
     "process": {
       "title": "Our app design process",
       "description": "Optimisation des moteurs de recherche (SEO) pour améliorer la visibilité en ligne et le classement des moteurs de recherche.",

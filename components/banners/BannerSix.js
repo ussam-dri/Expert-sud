@@ -1,26 +1,34 @@
+import { useRouter } from 'next/router';
 import Tilt from "react-parallax-tilt";
 import Image from "next/image";
-//import { useRouter } from 'next/router';
 
-const BannerSix = (
-    {
-       
-        title = 'Les meilleures solutions pour votre entreprise',
-        subtitle = 'Expert Sud est un bureau d tudes en ingénierie de développement et transformation digitale qui vous accompagne tout au long de votre projet avec la sincérité et le respect des règles de l art de la profession. ',
-        bannerStyleClass = 'axil-breadcrumb-area breadcrumb-style-2 pt--170 pb--70 theme-gradient',
-        bannerTitleClass = 'page-title mb--20',
-        leftColumn = 'col-lg-5 order-2 order-lg-1 mt_md--30 mt_sm--30',
-        rightColumn = 'col-lg-7 order-1 order-lg-2',
-        bannerImageOne = '/images/others/keystoke-image-1.png',
-        bannerImageTwo = '/images/others/keystoke-image-2.svg',
-        shapeImage = '/images/slider/single-service-02.png',
-        isServiceDetails = false,
-        showPersonImage = true,
-    }
-) => {
+const BannerSix = ({
+    title = 'BEST SOL', // Default French title
+    subtitle = 'en-Expert Sud est un bureau d études en ingénierie de développement et transformation digitale qui vous accompagne tout au long de votre projet avec la sincérité et le respect des règles de l art de la profession.', // Default French subtitle
+    bannerStyleClass = 'axil-breadcrumb-area breadcrumb-style-2 pt--170 pb--70 theme-gradient',
+    bannerTitleClass = 'page-title mb--20',
+    leftColumn = 'col-lg-5 order-2 order-lg-1 mt_md--30 mt_sm--30',
+    rightColumn = 'col-lg-7 order-1 order-lg-2',
+    bannerImageOne = '/images/others/keystoke-image-1.png',
+    bannerImageTwo = '/images/others/keystoke-image-2.svg',
+    shapeImage = '/images/slider/single-service-02.png',
+    isServiceDetails = false,
+    showPersonImage = true,
+}) => {
+    const router = useRouter();
+    const locale = router.locale ; // Default locale is 'fr' if not provided by router
+
+    // French translation of the title and subtitle
+    const frenchTitle = 'Les meilleures solutions pour votre entreprise';
+    const frenchSubtitle = 'Expert Sud est un bureau d études en ingénierie de développement et transformation digitale qui vous accompagne tout au long de votre projet avec la sincérité et le respect des règles de l art de la profession.';
+    
+    // Determine the title and subtitle based on locale
+     title = locale === 'fr' ? frenchTitle : title;
+     subtitle = locale === 'fr' ? frenchSubtitle : subtitle;
+
     return (
         <div className={bannerStyleClass}>
-            <h4>bannerSix</h4>
+            
             <div className="container">
                 <div className="row align-items-center">
                     <div className={leftColumn}>
