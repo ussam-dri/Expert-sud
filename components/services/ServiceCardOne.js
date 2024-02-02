@@ -61,15 +61,7 @@ const ServiceCardOne = (
                                     href={data.category === 'Default' ? `/services#section${index + 1}` : `/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>
                             </h4>
                             <p>{data.description}</p>
-                            <Link
-                                className="axil-button"
-                                data-hover="Learn More"
-                                href={data.category === 'Default' ? `/services#section${index + 1}` : `/services/${camelCaseToDashed(data.category)}/${data.slug}`}
-                            >
-                                <a className="axil-button">
-                                    Learn More
-                                </a>
-                            </Link>
+                            
 
                         </div>
                     </div>
