@@ -97,7 +97,7 @@ const Contact = () => {
                                     <Row>
                                         <Col md="12" style={{ marginTop: 20 }}>
                                             <Card className="card-profile">
-                                                <Image src={prof} />
+                                                <Image src={prof} alt=""/>
                                                 {/* <Row className="justify-content-center">
                                                     <Col className="order-lg-2" lg="3">
                                                         <div className="card-profile-image">

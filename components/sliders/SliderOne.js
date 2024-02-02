@@ -38,6 +38,7 @@ const SliderOne = () => {
                                     className="row d-flex flex-wrap axil-featured row--0"
                                     key={`slider-item-${index}`}
                                 >
+                                    <h1>slider one page</h1>
                                     <div className="col-lg-6 col-xl-6 col-md-12 col-12">
                                         <div className="thumbnail">
                                             <Image

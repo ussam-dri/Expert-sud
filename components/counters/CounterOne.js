@@ -1,8 +1,13 @@
-import CounterData from '../../data/Counters.json';
+//import CounterData from '../../data/Counters.json';
 import SectionTitle from '../common/SectionTitle';
 import CounterCardOne from './CounterCardOne';
+import { useRouter } from 'next/router';
 
 const CounterOne = () => {
+    const router = useRouter();
+    const { locale } = router;
+    const CounterData = locale === 'fr' ? require('../../locales/fr/counters.json') : require('../../locales/en/counters.json');
+
     const counterClass = (i) => {
         if (i === 0) return "axil-counterup mt--60 text-center counter-first";
         else if (i === 1) return "axil-counterup mt--60 text-center counter-second";

@@ -27,12 +27,12 @@ const HomeOne = ({posts}) => {
 
             <main className="page-wrapper">
                 <BannerOne/>
-                
+                    
                 <ServiceOne/>
             
                 <SliderOne/>
 
-                <AboutOne/>
+                {/* <AboutOne/> */}
 
                 {/* <PortfolioOne/> */}
 
