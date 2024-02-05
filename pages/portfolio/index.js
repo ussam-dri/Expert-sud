@@ -15,6 +15,7 @@ const Portfolio = () => {
             <main className="page-wrapper">
                 <BannerSeven
                     title="Our projects"
+                    thumbnailImageOne="/images/img6.jpg"
                     subtitle="A quick view of industry specific problems solved with design by the awesome team at Keystroke."
                 />
 
