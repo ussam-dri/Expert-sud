@@ -5,8 +5,8 @@ const BannerSeven = (
     {
         title = "EXPERT SUD",
         subtitle = "Bureau de conseil\, marketing\, digitalisation\, ingénierie\, stratégie\, attractivité\, développement\, créativité\, ecosystem et expertise technique .",
-        thumbnailImageOne ="/images/img6.jpg",
-        thumbnailImageTwo = "",
+        thumbnailImageOne= "/images/site3D.png" ,
+      
     }
 ) => {
     return (
