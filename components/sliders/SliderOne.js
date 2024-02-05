@@ -86,7 +86,7 @@ const SliderOne = () => {
                                                             >
                                                                 <CountUp
                                                                     start={0}
-                                                                    end={inView ? counter.amount : 0}
+                                                                    end={inView ? counter.amount : 2}
                                                                 />
                                                             </h3>
                                                             <p>{counter.title}</p>

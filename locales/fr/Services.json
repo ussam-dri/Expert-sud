@@ -82,7 +82,7 @@
     },
     "iconColorClass": "gradient-color-03",
     "title": "Digital marketing & Communication",
-    "description": "Notre agence de marketing digital vous fournit une variété de services, depuis la création de sites Web jusqu'à l'influence des campagnes de marketing, afin d'avoir plus d'engagement  plus de prospects et plus de ventes. ",
+    "description": "Notre agence de marketing digital vous fournit une variété de services, depuis la création de sites Web jusqu'à l'influence des campagnes de marketing, afin d'avoir plus d'engagement plus de prospects et plus de ventes.",
     "category": "Marketing Digital",
     "slug": "Digital-marketing-&-Communication",
     "process": {
@@ -91,7 +91,7 @@
       "strategies": [
         {
           "id": 1,
-          "title": "Services de Marketing Digital -fr ",
+          "title": "Services de Marketing Digital",
           "subtitle": "our four step process",
           "description": "Nos services de marketing digital offrent une expertise complète pour propulser votre présence en ligne, maximiser votre visibilité et développer votre audience cible grâce à des stratégies personnalisées et innovantes.",
           "highlightColor": "extra04-color",
@@ -133,8 +133,8 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-04",
-    "title": "SMS & EMAIL MARKETING -fr",
-    "description": "-fr From simple Content Management System to complex eCommerce developer, we cover it all.",
+    "title": "SMS & EMAIL MARKETING",
+    "description": "Du simple système de gestion de contenu au développeur de commerce électronique complexe, nous couvrons tout.",
     "category": "Marketing Digital",
     "slug": "graphic-print-design",
     "process": {
@@ -185,10 +185,10 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Social media marketing",
+    "title": "marketing de Social média",
     "description": "Le Social Media Marketing (marketing sur les réseaux sociaux) est une stratégie essentielle pour engager l'audience, promouvoir les marques et augmenter la notoriété en utilisant les plateformes sociales comme canal de communication privilégié",
     "category": "Marketing Digital",
-    "slug": "video-production",
+    "slug": "marketing-de-Social-media",
     "process": {
       "title": "Our video production process",
       "description": "Our comprehensive production strategy ensures a perfectly maked video for your business.",
@@ -290,7 +290,7 @@
     },
     "iconColorClass": "gradient-color-02",
     "title": "Mobile App development",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "description": "se spécialise dans le développement sur mesure d'applications mobiles pour répondre aux besoins uniques de nos clients.\nAvec une équipe expérimentée, nous concevons des applications innovantes et conviviales pour iOS et Android.",
     "category": "Development",
     "slug": "mobile-app-development",
     "process": {
@@ -498,7 +498,7 @@
     },
     "iconColorClass": "",
     "title": "Hosting",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "description": " propose des services d'hébergement fiables et sécurisés pour les sites web et les applications.\nAvec des serveurs performants et une surveillance constante, nous assurons une disponibilité maximale et une protection contre les menaces en ligne.",
     "category": "Technology",
     "slug": "hosting",
     "process": {
@@ -549,10 +549,10 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Big data analysis",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Analyse de Big Data",
+    "description": "Nous utilisons des technologies avancées et des algorithmes sophistiqués pour analyser les données et fournir des informations exploitables qui aident nos clients à prendre des décisions stratégiques.",
     "category": "Technology",
-    "slug": "big-data-analysis",
+    "slug": "Analyse-de-Big-Data",
     "process": {
       "title": "Our big data analysis process",
       "description": "Our big data analysis strategy helps you to grow your business.",
@@ -1538,8 +1538,8 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-05",
-    "title": "Bureau de développement",
-    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor",
+    "title": "securite",
+    "description": "accorde une priorité absolue à la sécurité de ses produits et services en ligne.\nNous utilisons des techniques avancées de cryptage et de protection des données pour assurer la confidentialité et l'intégrité des informations de nos clients.",
     "category": "Technology",
     "slug": "our-values-6",
     "process": {
@@ -1591,7 +1591,7 @@
     },
     "iconColorClass": "gradient-color-05",
     "title": "Bureau de développement",
-    "description": "Ut id orci ultricies, gravida arcu ac",
+    "description": "Notre bureau de développement est le cœur de l'innovation, propulsant notre société informatique vers de nouveaux horizons.",
     "category": "Development",
     "slug": "our-values-6",
     "process": {
