@@ -4,6 +4,7 @@ import ContactFormOne from '../forms/ContactFormOne';
 const BannerFive = () => {
     return (
         <div className="axil-slider-area axil-slide-activation position-relative">
+            <h4>bannerFIVE</h4>
             <div className="axil-slide slide-style-5 theme-gradient-8 d-flex align-items-center">
                 <div className="container">
                     <div className="row align-items-center w-100">

@@ -8,7 +8,7 @@ const AboutTwo = () => {
           <div className="col-lg-6 col-xl-5 col-md-12 col-12">
             <div className="contact-form-wrapper">
               <div className="axil-contact-form contact-form-style-1">
-                <h3 className="title">Get a free Keystroke quote now</h3>
+                <h3 className="title">Contact US now</h3>
                 <ContactFormOne/>
                 <div className="callto-action-wrapper text-center">
                   <span className="text">Or call us now</span>

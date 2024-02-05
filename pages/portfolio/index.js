@@ -8,7 +8,7 @@ const Portfolio = () => {
         <Layout>
             <Head>
                 <title>
-                    Portfolio || keystroke Creative Agency Bootstrap5 Template
+                    Portfolio
                 </title>
             </Head>
 

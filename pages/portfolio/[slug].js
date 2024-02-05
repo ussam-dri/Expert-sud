@@ -41,7 +41,7 @@ const PortfolioDetails = ({portfolio}) => {
         <Layout>
             <Head>
                 <title>
-                    {portfolio.title} || Keystroke Creative Agency Bootstrap 5 Template
+                    {portfolio.title} 
                 </title>
             </Head>
 
@@ -198,14 +198,12 @@ const PortfolioDetails = ({portfolio}) => {
                                             alt="POrtfolio Images"
                                         />
                                         <div className="video-button position-to-top">
-                                            <a
-                                                className="play__btn video-btn"
-                                                href="https://www.youtube.com/watch?v=Pj_geat9hvI"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal"
-                                            >
+                                        <video autoPlay controls style={{ width: '100%', height: '100%' }}>
+                                                <source src="/images/rent_vide.mp4" type="video/mp4" />
+                                                Your browser does not support the video tag.
+                                            </video>
                                                 <span className="triangle"/>
-                                            </a>
+                                           
                                         </div>
                                     </div>
                                 </div>

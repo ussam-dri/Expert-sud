@@ -8,6 +8,7 @@ const WorkingProcess = ({process}) => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
+                        <h1>WORKING PROCESS PAGE</h1>
                         <SectionTitle
                             title={process.title}
                             subtitle="process"

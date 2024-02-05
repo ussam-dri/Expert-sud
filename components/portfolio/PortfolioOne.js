@@ -33,6 +33,7 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
 
     return (
         <div className={`axil-portfolio-area ax-section-gap ${bgColor}`}>
+           
             <div className="container axil-masonary-wrapper">
                 <div className="row align-items-end">
                     <div className="col-lg-5 col-md-12">
