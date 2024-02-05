@@ -57,7 +57,7 @@ const ServiceCardOne = (
                         <div className="content">
                             <h4 className="title">
                                 
-                                <Link
+                                <Link rel="canonical"
                                     href={data.category === 'Default' ? `/services#section${index + 1}` : `/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>
                             </h4>
                             <p>{data.description}</p>

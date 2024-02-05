@@ -20,7 +20,12 @@ import { useRouter } from 'next/router';
 const Services = () => {
     const router = useRouter();
     const { locale } = router;
-
+    const ct=locale==='fr'?"Stratégie de contenu":"Content strategy";
+    const ct4=locale==='fr'?"technologie":"technology";
+    const ct33=locale==='fr'?"développement":"development";
+    const ct2=locale==='fr'?"Stratégie de contenu":"Content strategy";
+    const ct1=locale==='fr'?"Stratégie de contenu":"Content strategy";
+    const techN = locale === 'fr' ?"technologies que nous utilisons":"technologies we use";
     const [activeServiceSection, setActiveServiceSection] = useState("");
     const [servicesByCategory, setServicesByCategory] = useState([]);
         const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
@@ -123,7 +128,7 @@ const Services = () => {
                                         }`}
                                     href="#section2"
                                 >
-                                    Development
+                                    {ct33}
                                 </a>
                             </li>
                          
@@ -142,7 +147,7 @@ const Services = () => {
                                         }`}
                                     href="#section4"
                                 >
-                                    Technology
+                                     {ct4}
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -151,7 +156,7 @@ const Services = () => {
                                         }`}
                                     href="#section5"
                                 >
-                                    Content strategy
+                                    {ct}
                                 </a>
                             </li>
                         </ul>
@@ -174,7 +179,7 @@ const Services = () => {
                     {/* technologies start */}
                     <div className='container'>
                         <div className='row'>
-                            <h4 className="row" style={{ justifyContent: "center", display: 'flex', marginBottom: 40 }}>technologies we use</h4>
+                            <h4 className="row" style={{ justifyContent: "center", display: 'flex', marginBottom: 40 }}>{techN}</h4>
                             <div className='row' style={{ display: "flex", justifyContent: "space-between" }}>
                                 <Image src={php} width={90} height={90} alt=""/>
                                 <Image src={java} width={90} height={90} alt="" />
