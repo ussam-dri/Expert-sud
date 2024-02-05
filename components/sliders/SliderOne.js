@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import CountUp from 'react-countup';
-import {useInView} from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import SliderTwoData from '../../data/SliderTwo.json';
 import CaseStudyData from '../../data/CaseStudies.json';
 import Link from 'next/link';
-import {slugify} from '../../helpers/utilities';
+import { slugify } from '../../helpers/utilities';
 
 const SliderOne = () => {
     const [ref, inView] = useInView({
@@ -22,6 +22,8 @@ const SliderOne = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 3000, // Set autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
     };
 
     return (
@@ -38,7 +40,6 @@ const SliderOne = () => {
                                     className="row d-flex flex-wrap axil-featured row--0"
                                     key={`slider-item-${index}`}
                                 >
-                                    <h1>slider one page</h1>
                                     <div className="col-lg-6 col-xl-6 col-md-12 col-12">
                                         <div className="thumbnail">
                                             <Image

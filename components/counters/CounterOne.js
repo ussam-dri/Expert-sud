@@ -7,7 +7,7 @@ const CounterOne = () => {
     const router = useRouter();
     const { locale } = router;
     const CounterData = locale === 'fr' ? require('../../locales/fr/counters.json') : require('../../locales/en/counters.json');
-
+    const titl1=locale==='fr'?"t1":"t2";
     const counterClass = (i) => {
         if (i === 0) return "axil-counterup mt--60 text-center counter-first";
         else if (i === 1) return "axil-counterup mt--60 text-center counter-second";
@@ -21,13 +21,7 @@ const CounterOne = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <SectionTitle
-                            title="Design startup movement"
-                            subtitle="experts in field"
-                            description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
-                            color="extra08-color"
-                            alignment="center"
-                        />
+                   
                     </div>
                 </div>
                 <div className="row">

@@ -110,7 +110,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+body{
+  font-size: 10px !important;
+}
 article,
 aside,
 details,

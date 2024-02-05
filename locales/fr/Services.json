@@ -601,10 +601,10 @@
       "height": "36"
     },
     "iconColorClass": "",
-    "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Besion des Client",
+    "description": "Comprendre les besoins de nos clients est notre priorité absolue. Nous collaborons étroitement avec eux pour identifier leurs défis et leurs objectifs spécifiques.",
     "category": "Content strategy",
-    "slug": "design-1",
+    "slug": "Besion-des-client",
     "process": {
       "title": "Our design process",
       "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
@@ -653,10 +653,10 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Developpement de contenu SEO",
+    "description": "Nous créons des contenus riches en mots-clés pertinents et en informations de qualité pour améliorer la visibilité en ligne de nos clients.",
     "category": "Content strategy",
-    "slug": "design-2",
+    "slug": "Developpement-de-contenu-SEO",
     "process": {
       "title": "Our design process",
       "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
@@ -705,10 +705,10 @@
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "title": "Developpement de contenu Technique",
+    "description":"Nous travaillons en étroite collaboration avec nos experts techniques pour produire des manuels, des guides et des documents de référence qui répondent aux exigences les plus pointues.",
     "category": "Content strategy",
-    "slug": "design-3",
+    "slug": "Developpement-de-contenu-Technique",
     "process": {
       "title": "Our design process",
       "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
