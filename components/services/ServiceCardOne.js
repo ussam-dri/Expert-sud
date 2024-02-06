@@ -60,7 +60,7 @@ const ServiceCardOne = (
                                 <Link rel="canonical"
                                     href={data.category === 'Default' ? `/services#section${index + 1}` : `/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>
                             </h4>
-                            <p>{data.description}</p>
+                            <p className='justify-home' style={{ textAlign: 'left' }}>{data.description}</p>
                             
 
                         </div>
