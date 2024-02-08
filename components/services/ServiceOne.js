@@ -10,6 +10,7 @@ const ServiceOne = () => {
     const [activeService, setActiveService] = useState(1);
 
     useEffect(() => {
+       
         // Dynamically import the service data based on the selected language
         const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
         

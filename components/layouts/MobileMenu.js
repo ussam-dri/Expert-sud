@@ -112,13 +112,13 @@ const MobileMenu = () => {
                     <MainMenu/>
                     <ul style={{ listStyleType: 'none', padding: 0 }}>
                         <li style={{ display: 'inline-block' }}><Link href="/en">
-                            <Image width={25}
-                                    height={25}
+                            <Image width={40}
+                                    height={40}
                                      src="/images/en.png" alt="en"/>
                                      </Link></li>
-                        <li style={{ display: 'inline-block' }}><Link href="/fr">
-                            <Image width={25}
-                                    height={25}
+                        <li style={{ display: 'inline-block',padding:'5px' }}><Link href="/fr">
+                            <Image width={40}
+                                    height={40}
                                      src="/images/fr.png" alt="fr"/>
                             </Link></li>
 

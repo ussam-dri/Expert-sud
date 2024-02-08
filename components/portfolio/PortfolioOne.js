@@ -1,18 +1,22 @@
 import Link from 'next/link';
-import {motion} from 'framer-motion';
-import {useEffect, useState} from 'react';
+import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import PortfolioData from '../../data/Portfolio.json';
 import SectionTitle from '../common/SectionTitle';
 import PortfolioCard from './PortfolioCard';
 import PortfolioFilter from './PortfolioFilter';
+import { useRouter } from 'next/router';
 
-const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
+const PortfolioOne = ({ bgColor = "bg-color-lightest" }) => {
+    const router = useRouter();
+    const { locale } = router;
+
     const [activePortfolio, setActivePortfolio] = useState(0);
     const [filterdPortfolioData, setFilterdPortfolioData] = useState([]);
     const [activeGenre, setActiveGenre] = useState(0);
 
     const container = {
-        hidden: {opacity: 1, scale: 0},
+        hidden: { opacity: 1, scale: 0 },
         visible: {
             opacity: 1,
             scale: 1,
@@ -33,13 +37,12 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
 
     return (
         <div className={`axil-portfolio-area ax-section-gap ${bgColor}`}>
-           
             <div className="container axil-masonary-wrapper">
                 <div className="row align-items-end">
                     <div className="col-lg-5 col-md-12">
                         <SectionTitle
-                            title="Some of our finest work."
-                            subtitle="our projects"
+                            title={locale === "fr" ? "Quelque projects de notre agence" : "Some of our finest work."}
+                            subtitle={locale === "fr" ? "nos projets" : "our projects"}
                             titleClass="mb-0"
                             color="extra07-color"
                             alignment="left"
@@ -76,7 +79,7 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
                             <Link href="/portfolio">
                                 <a className="axil-button btn-large btn-transparent btn-xxl">
                                     <span className="button-text">Discover More Projects</span>
-                                    <span className="button-icon"/>
+                                    <span className="button-icon" />
                                 </a>
                             </Link>
                         </div>

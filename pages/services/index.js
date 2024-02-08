@@ -19,6 +19,11 @@ import { useRouter } from 'next/router';
 
 const Services = () => {
     const router = useRouter();
+     ////Redirect to serivce sections
+     const path = router.asPath;
+     const urlParts = path.split('#');
+     const urlsections = urlParts[urlParts.length - 1];
+     //////////////
     const { locale } = router;
     const ct=locale==='fr'?"Stratégie de contenu":"Content strategy";
     const ct4=locale==='fr'?"technologie":"technology";
@@ -26,10 +31,24 @@ const Services = () => {
     const ct2=locale==='fr'?"Stratégie de contenu":"Content strategy";
     const ct1=locale==='fr'?"Stratégie de contenu":"Content strategy";
     const techN = locale === 'fr' ?"technologies que nous utilisons":"technologies we use";
-    const [activeServiceSection, setActiveServiceSection] = useState("");
+    const [activeServiceSection, setActiveServiceSection] = useState({urlsections});
     const [servicesByCategory, setServicesByCategory] = useState([]);
-        const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
-
+    const ServiceData = locale === 'fr' ? require('../../locales/fr/Services.json') : require('../../locales/en/Services.json');
+        function navi(){
+            //router.push('/services#'+urlsections);
+            //window.onload ="/servicesoo#"+urlsections;
+              ///// 
+             const section = document.getElementById('section2');
+             const link1 = document.getElementsByClassName('section axil-service-area bg-color-white ax-section-gap');
+             
+             //link1.scrollIntoView({ behavior: 'smooth' });
+            //////
+            //const link = document.querySelector('a[href^="#'+{urlsections}+'"]');
+               console.log(section);
+               // link.click();
+///////////////////////
+            console.log("func got triggered"+urlsections);
+        }
     const getServicesByCategory = () => {
         const filteredServices = ServiceData.reduce((acc, service) => {
             const categoryIndex = acc.findIndex(
@@ -97,17 +116,21 @@ const Services = () => {
     useEffect(() => {
         getServicesByCategory();
     }, []);
+    useEffect(() => {
+        navi();
+    }, []);
 
     return (
         <Layout>
             <Head>
                 <title>Expert sud</title>
             </Head>
-
+        
             <main className="page-wrapper">
                 <BannerSix />
 
-                <div
+                <div   
+
                     ref={ref}
                     className="axil-scroll-navigation-area axil-scroll-navigation position-relative bg-color-white"
                 >

@@ -27,7 +27,7 @@
     "react-countup": "^6.3.0",
     "react-dom": "18.2.0",
     "react-i18next": "^14.0.1",
-    "react-intersection-observer": "^9.3.5",
+    "react-intersection-observer": "^9.7.0",
     "react-parallax-tilt": "^1.7.44",
     "react-player": "^2.10.1",
     "react-slick": "^0.29.0",
