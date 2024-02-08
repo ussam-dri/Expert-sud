@@ -16,12 +16,14 @@ const PricingTable = ({ column, pricingTableClass, buttonClass, data }) => {
             <p>{data.subtitle}</p>
             <div className="price-wrapper">
               <div className="price">
-                <h2 className="currency">{data.currency}</h2>
+               
                 <h2 className="heading headin-h3">
                   {priceFilterValue === "monthly"
                     ? data.price.monthly
                     : data.price.yearly}
+
                 </h2>
+                <h2 style={{ fontSize: '16px' }} className="currency">{data.currency}</h2>
                 <span>
                   {priceFilterValue === "monthly" ? "/month" : "/year"}
                 </span>
