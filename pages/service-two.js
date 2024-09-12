@@ -11,6 +11,16 @@ import ServiceCardOne from '../components/services/ServiceCardOne';
 import ServiceData from '../data/Services.json';
 import {camelCaseToDashed} from '../helpers/utilities';
 
+
+
+
+//////////////: POSSIBLE EMPTY PAGE
+
+
+
+
+
+
 const ServiceTwo = () => {
     const [serviceCapabilities, setServiceCapabilities] = useState([]);
     const [servicesOurWay, setServicesOurWay] = useState([]);
@@ -40,7 +50,7 @@ const ServiceTwo = () => {
     return (
         <Layout>
             <Head>
-                <title>Services || keystroke Creative Agency Bootstrap5 Template</title>
+                <title>Services </title>
             </Head>
 
             <main className="page-wrapper">

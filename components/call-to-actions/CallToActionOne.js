@@ -1,6 +1,15 @@
 import SectionTitle from '../common/SectionTitle';
+import { useRouter } from 'next/router';
 
 const CallToActionOne = () => {
+
+    const router = useRouter();
+  const { locale } = router;
+  const title1 = locale === 'fr' ? "Besoin d'un projet réussi ?" : "Need a successful project?";
+  const b1 = locale === 'fr' ? "Voir Nos Services" : "See Our Services";
+  const sub1 = locale === 'fr' ? "Travaillons ensemble" : "Let's work together";
+  const call = locale === 'fr' ? "Appelez-nous maintenant" : "Or call us now";
+  
     return (
         <div className="axil-call-to-action-area shape-position ax-section-gap theme-gradient">
             <div className="container">
@@ -8,19 +17,19 @@ const CallToActionOne = () => {
                     <div className="col-lg-12">
                         <div className="axil-call-to-action">
                             <SectionTitle
-                                title="Need a successful project?"
-                                subtitle="Let's work together"
+                                title={title1}
+                                subtitle={sub1}
                                 color="extra04-color"
                                 alignment="center"
                             />
                             <div className="text-center">
-                                <a className="axil-button btn-large btn-transparent" href="#">
-                                    <span className="button-text">Estimate Project</span>
+                                <a className="axil-button btn-large btn-transparent" href="/contact">
+                                    <span className="button-text">{b1}</span>
                                     <span className="button-icon"/>
                                 </a>
                                 <div className="callto-action">
                                     <span className="text">
-                                      Or call us now
+                                      {call}
                                     </span>
                                     <span>
                                       <i className="fal fa-phone-alt"/>

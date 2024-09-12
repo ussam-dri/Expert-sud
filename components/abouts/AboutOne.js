@@ -26,7 +26,7 @@ const AboutOne = () => {
                   Vous avez un projet ? Notre bureau vous aide également à le construire.   <br /> Contactez-nous!
                 </h2> */}
                 <div className="image-fluid mt-5">
-                <Image src={call}/>
+                <Image src={call} alt=""/>
                 </div>
                 
                 <p

@@ -8,13 +8,14 @@ const Portfolio = () => {
         <Layout>
             <Head>
                 <title>
-                    Portfolio || keystroke Creative Agency Bootstrap5 Template
+                    Portfolio
                 </title>
             </Head>
 
             <main className="page-wrapper">
                 <BannerSeven
                     title="Our projects"
+                    thumbnailImageOne="/images/tablet_dev2.jpg"
                     subtitle="A quick view of industry specific problems solved with design by the awesome team at Keystroke."
                 />
 

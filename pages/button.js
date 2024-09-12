@@ -7,7 +7,7 @@ const Button = () => {
   return (
     <Layout>
       <Head>
-        <title>Button || keystroke Creative Agency Bootstrap5 Template</title>
+        <title>Button</title>
       </Head>
 
       <Breadcrumb title="Button" current="Button" />

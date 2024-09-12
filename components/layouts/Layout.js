@@ -3,7 +3,7 @@ import Header from "./Header";
 import ScrollUp from "./ScrollUp";
 
 const Layout = ({
-  layoutSettings = { header: "", footer: "" },
+  layoutSettings = { header: "", Footer: "" },
   children,
   showFooter = true,
 }) => {
@@ -12,7 +12,7 @@ const Layout = ({
       <div className="main-content">
         <Header headerSetting={layoutSettings.header} />
         {children}
-        {showFooter && <Footer footerSetting={layoutSettings.footer} />}
+        {showFooter && <Footer footerSetting={layoutSettings.Footer} />}
       </div>
       <ScrollUp />
     </>

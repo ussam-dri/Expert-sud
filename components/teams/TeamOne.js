@@ -13,7 +13,7 @@ const TeamOne = () => {
                                 <Image
                                     width={630}
                                     height={514}
-                                    src="/images/team/team-group.png"
+                                    src="/images/team/teams.jpg"
                                     alt="Team Images"
                                 />
                             </div>
@@ -30,11 +30,9 @@ const TeamOne = () => {
                         <div className="content">
                             <div className="inner">
                                 <SectionTitle
-                                    title="Alone we can do so little; together we can do so much."
+                                    title="Alone we can do so little together we can do so much."
                                     subtitle="our team"
-                                    description="Donec metus lorem, vulputate at sapien sit amet, auctor
-                  iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                  velit. Aliquam tristique libero."
+                                    description="Digital Media Developer: Driving dynamic and versatile website development, incorporating multimedia elements and interactive features to amplify brand storytelling and engagement across diverse platforms"
                                     color="extra08-color"
                                     alignment="left"
                                 />

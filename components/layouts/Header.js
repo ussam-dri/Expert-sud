@@ -5,7 +5,7 @@ import MainMenu from './MainMenu';
 import MobileMenu from './MobileMenu';
 import SideNav from './SideNav';
 import ThemeSwitcher from './ThemeSwitcher';
-import Logo from '../common/Logo';
+//import Logo from '../common/Logo';
 
 const Header = ({headerSetting = {}}) => {
     const [headerSettings, setHeaderSettings] = useState({});
@@ -100,10 +100,13 @@ const Header = ({headerSetting = {}}) => {
                         <div className="row align-items-center">
                             <div className={headerSettings.leftColumn}>
                                 <div className="logo">
-                                    <Link href="/home-01">
+                                    <Link href="/">
                                         <a>
-                                            <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
-                                        </a>
+                                        <img width="200" height="55" src="/images/slogan.png" alt="Your Logo" />
+                                                                         
+                                                                       
+                                         </a>
+                                         
                                     </Link>
                                 </div>
                             </div>

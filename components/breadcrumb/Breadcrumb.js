@@ -3,7 +3,7 @@ import Link from "next/link";
 const Breadcrumb = ({
   title = "Blog",
   root = "Home",
-  rootUrl = "/home-01",
+  rootUrl = "/",
   current = "Blog",
 }) => {
   return (

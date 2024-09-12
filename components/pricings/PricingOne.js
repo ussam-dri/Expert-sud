@@ -4,6 +4,9 @@ import SectionTitle from "../common/SectionTitle";
 import PricingTable from "./PricingTable";
 
 const PricingOne = () => {
+
+ 
+
   const [pricings, setPricings] = useState(PricingData.slice(0, 2));
   
   return (
@@ -11,13 +14,13 @@ const PricingOne = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <SectionTitle
+            {/* <SectionTitle
               title="From getting started"
               subtitle="pricing plan"
-              description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
+              description="Our Pricing."
               color="extra04-color"
               alignment="center"
-            />
+            /> */}
           </div>
         </div>
         <div className="row justify-content-center mt--20 row--30 mt_sm--0">

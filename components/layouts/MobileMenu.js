@@ -90,13 +90,13 @@ const MobileMenu = () => {
             <div className="inner">
                 <div className="mobileheader">
                     <div className="logo">
-                        <Link href="/home-01">
+                        <Link href="/">
                             <a>
                                 <Image
                                     width={250}
                                     height={60}
-                                    src="/images/logo/keystoke.svg"
-                                    alt="Logo images"
+                                    src="/images/slogan.png"
+                                    alt="EXPERT SUD"
                                 />
                             </a>
                         </Link>
@@ -110,6 +110,19 @@ const MobileMenu = () => {
                 </div>
                 <div className="menu-item">
                     <MainMenu/>
+                    <ul style={{ listStyleType: 'none', padding: 0 }}>
+                        <li style={{ display: 'inline-block' }}><Link href="/en">
+                            <Image width={40}
+                                    height={40}
+                                     src="/images/en.png" alt="en"/>
+                                     </Link></li>
+                        <li style={{ display: 'inline-block',padding:'5px' }}><Link href="/fr">
+                            <Image width={40}
+                                    height={40}
+                                     src="/images/fr.png" alt="fr"/>
+                            </Link></li>
+
+                    </ul>
                 </div>
             </div>
         </div>

@@ -34,5 +34,19 @@
     "title": "Contact",
     "url": "/contact",
     "hasChildren": false
-  }
+  },
+  {
+   "id": 7,
+   "title": "Language",
+   "url": "/",
+   "hasChildren": true,
+   "children": [
+    {
+      "title": "en"    },
+    {
+      "title": "fr"    }
+  ]
+
+   
+ }
 ]

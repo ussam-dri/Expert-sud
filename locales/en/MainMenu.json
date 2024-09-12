@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "url": "/",
+    "hasChildren": false
+  },
+  {
+    "id": 2,
+    "title": "Services",
+    "url": "/services",
+    "hasChildren": false
+  },
+  {
+    "id": 7,
+    "title": "portfolio",
+    "url": "/portfolio",
+    "hasChildren": false
+  },
+  {
+    "id": 3,
+    "title": "About Us",
+    "url": "/about",
+    "hasChildren": false
+  },
+  {
+    "id": 4,
+    "title": "pricing",
+    "url": "/pricing",
+    "hasChildren": false
+  },
+  {
+    "id": 6,
+    "title": "Contact",
+    "url": "/contact",
+    "hasChildren": false
+  },
+  {
+   "id": 7,
+   "title": "Language",
+   "url": "#",
+   "hasChildren": true,
+   "children": [
+    {
+      "title": "EN",
+      "url": "/en"
+    },
+    {
+      "title": "FR",
+      "url": "/fr"
+    }
+  ]
+
+   
+ }
+]

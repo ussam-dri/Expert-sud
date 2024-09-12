@@ -1,56 +1,61 @@
 [
   {
     "id": 1,
-    "title": "Small Business",
-    "subtitle": "A beautiful, simple website",
-    "currency": "$",
+    "title": "Basic",
+    "subtitle": "",
+    "currency": "DH",
     "price": {
-      "monthly": 46,
-      "yearly": 552
+      "monthly": 1990,
+      "yearly": 23700
     },
-    "subtitleTwo": "100% money back guarantee",
+    "subtitleTwo": "Pack d'accompagnement réseaux sociaux",
     "features": [
-      "10 Pages Responsive Website",
-      "5 PPC Campaigns",
-      "10 SEO Keywords",
-      "5 Facebook Camplaigns",
-      "2 Video Camplaigns"
+      "Création/Optimisation",
+      "Création de Contenu (2 Feed)",
+      "Création de Story (3 Feed)",
+      "Création créatives postes:1",
+      "Gestion ADS",
+      "Analyse et Optimisation"
     ]
   },
   {
     "id": 2,
-    "title": "Medium business",
-    "subtitle": "A beautiful, simple website",
-    "currency": "$",
+    "title": "Silver",
+    "subtitle": "",
+    "currency": "DH",
     "price": {
-      "monthly": 99,
-      "yearly": 499
+      "monthly": 2690,
+      "yearly": 32000
     },
-    "subtitleTwo": "100% money back guarantee",
+    "subtitleTwo": "Pack d'accompagnement réseaux sociaux ",
     "features": [
-      "20 Pages Responsive Website",
-      "Unlimited PPC Campaigns",
-      "Unlimited SEO Keywords",
-      "Unlimited Facebook",
-      "Unlimited Video Camplaigns"
+      "Création/Optimisation",
+      "Création de Contenu (3 Feed)",
+      "Création de Story (4)",
+      "Création créatives postes:1",
+      "Commentaire/Message/Avis",
+      "Gestion ADS",
+      "Analyse et Optimisation"
     ]
   },
   {
     "id": 3,
-    "title": "Corporate Business",
+    "title": "Gold",
     "subtitle": "A beautiful, simple website",
-    "currency": "$",
+    "currency": "DH",
     "price": {
-      "monthly": 199,
-      "yearly": 999
+      "monthly": 3090,
+      "yearly": 37000
     },
-    "subtitleTwo": "100% money back guarantee",
+    "subtitleTwo": "Pack d'accompagnement réseaux sociaux",
     "features": [
-      "50 Pages Responsive Website",
-      "Unlimited PPC Campaigns",
-      "Unlimited SEO Keywords",
-      "Unlimited Facebook",
-      "Unlimited Video Camplaigns"
+      "Création/Optimisation",
+      "Création de Contenu (4 Feed)",
+      "Création de Story (7/7)",
+      "Création créatives postes:3",
+      "Commentaire/Message/Avis",
+      "Gestion ADS",
+      "Analyse et Optimisation"
     ]
   }
 ]

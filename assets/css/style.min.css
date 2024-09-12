@@ -12630,7 +12630,9 @@ input[type="radio"]~label::after {
 .haeder-default .header-right {
     position: static
 }
-
+.justify-home{
+    text-align: justify !important;
+     }
 circle#icon-oval-sm,
 circle#icon-oval-lg,
 circle.icon-oval-sm,

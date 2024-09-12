@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import CountUp from 'react-countup';
-import {useInView} from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import SliderTwoData from '../../data/SliderTwo.json';
 import CaseStudyData from '../../data/CaseStudies.json';
 import Link from 'next/link';
-import {slugify} from '../../helpers/utilities';
+import { slugify } from '../../helpers/utilities';
 
 const SliderOne = () => {
     const [ref, inView] = useInView({
@@ -22,6 +22,8 @@ const SliderOne = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 3000, // Set autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
     };
 
     return (
@@ -85,7 +87,7 @@ const SliderOne = () => {
                                                             >
                                                                 <CountUp
                                                                     start={0}
-                                                                    end={inView ? counter.amount : 0}
+                                                                    end={inView ? counter.amount : 2}
                                                                 />
                                                             </h3>
                                                             <p>{counter.title}</p>

@@ -42,7 +42,7 @@ const ProjectDetails = ({caseStudy}) => {
         <Layout>
             <Head>
                 <title>
-                    Case Study Details || Keystroke Creative Agency Bootstrap 5 Template
+                    Case Study Details
                 </title>
             </Head>
 

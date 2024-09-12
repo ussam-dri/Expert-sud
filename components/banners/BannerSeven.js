@@ -5,8 +5,8 @@ const BannerSeven = (
     {
         title = "EXPERT SUD",
         subtitle = "Bureau de conseil\, marketing\, digitalisation\, ingénierie\, stratégie\, attractivité\, développement\, créativité\, ecosystem et expertise technique .",
-        thumbnailImageOne = "/images/slider/white-shape.png",
-        thumbnailImageTwo = "/images/slider/banner-about.svg",
+        thumbnailImageOne= "/images/site3D.png" ,
+      
     }
 ) => {
     return (
@@ -31,17 +31,9 @@ const BannerSeven = (
                                         alt="Slider images"
                                     />
                                 </Tilt>
-                                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} className="banner-paralax-image-2">
-                                    <Image
-                                        width={519}
-                                        height={395}
-                                        className="image-2 paralax-image"
-                                        src={thumbnailImageTwo}
-                                        alt="Slider images"
-                                    />
-                                </Tilt>
+                          
                             </div>
-                            {/* <div className="shape-group">
+                            <div className="shape-group">
                                 <div className="shape shape-1">
                                     <i className="icon icon-breadcrumb-1"/>
                                 </div>
@@ -51,7 +43,7 @@ const BannerSeven = (
                                 <div className="shape shape-3 customOne">
                                     <i className="icon icon-breadcrumb-3"/>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

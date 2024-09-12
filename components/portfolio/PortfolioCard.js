@@ -44,11 +44,7 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                                 <a>{data.title}</a>
                             </Link>
                         </h4>
-                        <span className="category">
-              {data.categories?.map((category, index) => {
-                  return category;
-              })}
-            </span>
+           
                     </div>
                 </div>
             </div>

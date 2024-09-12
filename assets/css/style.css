@@ -110,6 +110,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+body{
+  font-size: 10px !important;
+}
+.justify-home{
+ text-align: justify !important;
+  }
 
 article,
 aside,
